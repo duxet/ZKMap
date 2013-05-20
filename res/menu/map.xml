@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/refresh" android:icon="@drawable/navigation_refresh" android:title="@string/refresh" android:showAsAction="always"></item>
+    <item android:id="@+id/layers" android:icon="@drawable/labels" android:showAsAction="always" android:title="@string/layers">
+        <menu>
+            <item android:id="@+id/vehicles" android:checkable="true" android:title="@string/vehicles" />
+            <item android:id="@+id/stops" android:title="@string/stops" android:checkable="true"/>
+        </menu>
+    </item><item android:id="@+id/settings" android:title="@string/settings" android:icon="@drawable/action_settings" android:showAsAction="always"></item>
+    
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        <PreferenceCategory android:title="@string/refresh_cat" android:key="pref_refresh_cat">
+                    <CheckBoxPreference android:title="@string/refresh_enable" android:key="pref_refresh" android:defaultValue="true" android:summary="@string/refresh_enable_summ"/><ListPreference android:title="@string/refresh_every" android:key="pref_refreshTime" android:dependency="pref_refresh" android:summary="@string/refresh_every_summ" android:entries="@array/pref_refreshTime_entries" android:entryValues="@array/pref_refreshTime_values" android:defaultValue="@string/pref_refreshTime_default"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
